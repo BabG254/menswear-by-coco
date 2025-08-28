@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Menswear by Coco - Modern Men's Fashion",
-  description: "Discover premium men's fashion at Menswear by Coco. Shop shirts, shoes, bags, and accessories with modern style and quality.",
+  title: "Menswear by Coco | Premium Men's Fashion",
+  description: "Discover premium men's clothing, shoes, bags and accessories. Modern style with timeless elegance.",
 };
 
 export default function RootLayout({
