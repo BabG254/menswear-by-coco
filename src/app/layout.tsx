@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-black`}> 
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-black`} suppressHydrationWarning={true}> 
         <Navbar />
         <main className="min-h-screen">{children}</main>
         <Footer />
