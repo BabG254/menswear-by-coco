@@ -9,13 +9,26 @@
   ],
   "routes": [
     {
+      "src": "/admin/(.*)",
+      "dest": "/admin/$1"
+    },
+    {
+      "src": "/login",
+      "dest": "/login"
+    },
+    {
       "src": "/(.*)",
-      "dest": "/"
+      "dest": "/$1"
     }
   ],
   "env": {
     "NODE_ENV": "production"
   },
   "regions": ["iad1"],
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "functions": {
+    "app/**": {
+      "maxDuration": 30
+    }
+  }
 }
