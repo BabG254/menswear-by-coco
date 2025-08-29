@@ -126,7 +126,7 @@ export default function Home() {
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
             <a 
-              href="https://instagram.com/menswearbycocoph" 
+              href="https://instagram.com/menswear_bycoco" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 bg-red-500 text-white px-8 py-3 hover:bg-red-600 transition-all duration-300 text-sm font-medium tracking-wide"
@@ -138,7 +138,7 @@ export default function Home() {
             </a>
             
             <a 
-              href="https://wa.me/639123456789" 
+              href="https://wa.me/254728271644" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 border border-white text-white px-8 py-3 hover:bg-white hover:text-black transition-all duration-300 text-sm font-medium tracking-wide"

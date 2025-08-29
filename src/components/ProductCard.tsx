@@ -54,7 +54,7 @@ export default function ProductCard({ product }: { product: Product }) {
         
         <div className="flex items-center justify-between">
           <span className="text-black font-medium text-lg">
-            ${product.price}
+            KSH {product.price.toLocaleString()}
           </span>
           
           {/* Size indicator if available */}

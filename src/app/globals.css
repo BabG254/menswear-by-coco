@@ -1,6 +1,5 @@
 
-@import "tailwindcss/preflight";
-@import "tailwindcss/utilities";
+@import "tailwindcss";
 
 body {
   background: #fff;
@@ -55,7 +54,7 @@ body {
 
 /* Brand classes */
 .text-brand {
-  color: #dc2626; /* Tailwind red-600 */
+  color: #dc2626;
 }
 
 .bg-brand {
@@ -64,7 +63,7 @@ body {
 
 .btn-brand {
   background-color: #dc2626;
-  color: #fff;
+  color: #ffffff;
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
   font-weight: 600;
@@ -76,7 +75,7 @@ body {
 }
 
 .btn-brand:hover {
-  background-color: #b91c1c; /* Tailwind red-700 */
+  background-color: #b91c1c;
   transform: translateY(-2px);
   box-shadow: 0 10px 25px rgba(220, 38, 38, 0.3);
 }

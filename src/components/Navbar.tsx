@@ -76,10 +76,13 @@ export default function Navbar() {
               <FaSearch size={16} className="text-white hover:text-red-500 transition-colors" />
             </button>
             
-            {/* User icon */}
-            <button className="p-2 hover:bg-gray-800 rounded-lg transition-colors hidden md:block">
+            {/* Profile/Admin icon */}
+            <Link 
+              href="/login" 
+              className="p-2 hover:bg-gray-800 rounded-lg transition-colors hidden md:block"
+            >
               <FaUser size={16} className="text-white hover:text-red-500 transition-colors" />
-            </button>
+            </Link>
 
             {/* Cart */}
             <Link 
@@ -142,9 +145,13 @@ export default function Navbar() {
                 <button className="p-2 hover:bg-gray-800 rounded-lg transition-colors">
                   <FaSearch size={16} className="text-white" />
                 </button>
-                <button className="p-2 hover:bg-gray-800 rounded-lg transition-colors">
+                <Link 
+                  href="/login"
+                  className="p-2 hover:bg-gray-800 rounded-lg transition-colors"
+                  onClick={() => setIsMenuOpen(false)}
+                >
                   <FaUser size={16} className="text-white" />
-                </button>
+                </Link>
               </div>
             </div>
           </div>

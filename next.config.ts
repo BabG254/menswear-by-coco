@@ -11,6 +11,10 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Build optimization for Next.js 15
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
+  },
 };
 
 export default nextConfig;

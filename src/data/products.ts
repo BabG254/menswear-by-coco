@@ -16,7 +16,7 @@ const products: Product[] = [
     id: 'shirt-1',
     name: 'Classic White Shirt',
     category: 'Shirts',
-    price: 59,
+    price: 2500,
     image: [
       'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500&h=500&fit=crop',
       'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=500&h=500&fit=crop'
@@ -31,7 +31,7 @@ const products: Product[] = [
     id: 'shirt-2',
     name: 'Black Dress Shirt',
     category: 'Shirts',
-    price: 65,
+    price: 2800,
     image: [
       'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500&h=500&fit=crop',
     ],
@@ -45,7 +45,7 @@ const products: Product[] = [
     id: 'shoe-1',
     name: 'Black Leather Shoes',
     category: 'Shoes',
-    price: 120,
+    price: 8500,
     image: [
       'https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&h=500&fit=crop',
       'https://images.unsplash.com/photo-1608256246200-53e8b47b98df?w=500&h=500&fit=crop'
@@ -60,7 +60,7 @@ const products: Product[] = [
     id: 'shoe-2',
     name: 'Brown Oxford Shoes',
     category: 'Shoes',
-    price: 135,
+    price: 9500,
     image: [
       'https://images.unsplash.com/photo-1581338834647-b0fb40704e21?w=500&h=500&fit=crop',
     ],
@@ -74,7 +74,7 @@ const products: Product[] = [
     id: 'bag-1',
     name: 'Minimalist Black Bag',
     category: 'Bags',
-    price: 85,
+    price: 4500,
     image: [
       'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=500&fit=crop'
     ],
@@ -87,7 +87,7 @@ const products: Product[] = [
     id: 'bag-2',
     name: 'Canvas Messenger Bag',
     category: 'Bags',
-    price: 75,
+    price: 3800,
     image: [
       'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&h=500&fit=crop'
     ],
@@ -100,7 +100,7 @@ const products: Product[] = [
     id: 'accessory-1',
     name: 'Red Accent Watch',
     category: 'Accessories',
-    price: 45,
+    price: 6500,
     image: [
       'https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=500&h=500&fit=crop'
     ],
@@ -113,7 +113,7 @@ const products: Product[] = [
     id: 'accessory-2',
     name: 'Black Leather Belt',
     category: 'Accessories',
-    price: 35,
+    price: 1800,
     image: [
       'https://images.unsplash.com/photo-1624222247344-550fb60583dc?w=500&h=500&fit=crop'
     ],
