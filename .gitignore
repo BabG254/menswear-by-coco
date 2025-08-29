@@ -43,3 +43,5 @@ next-env.d.ts
 # build cache and optimization
 .turbo
 .swc/
+
+.vercel
